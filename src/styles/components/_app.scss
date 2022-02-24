@@ -1,0 +1,52 @@
+.color__main {
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.screen__card {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(216, 50%, 16%);
+  height: 500px;
+  width: 300px;
+  border-radius: 10px;
+  align-items: center;
+  box-shadow: 3px 10px 50px #888888;
+}
+
+.image-nft {
+  height: 260px;
+  width: 260px;
+  border-radius: 6px;
+  margin-top: 18px;
+}
+
+.big_text {
+  align-self: flex-start;
+  margin-left: 19px;
+  margin-top: 15px;
+  color: white;
+}
+
+.create_by {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  margin-top: 15px;
+}
+
+.avatar_size {
+  height: 40px;
+  margin-right: -1px;
+}
+
+.text_name {
+  font-size: 10px;
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.466);
+  margin-left: -10px;
+}
